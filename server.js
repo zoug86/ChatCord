@@ -62,7 +62,7 @@ io.on("connection", (socket) => {
 
 });
 
-const PORT = 3000 || process.env.PORT
+const PORT = 5000 || process.env.PORT
 
 // app.listen(PORT, () => console.log(`Server running on port ${PORT}`))
 server.listen(PORT, () => console.log(`Server running on port ${PORT}`)) // we changed app to server to use socket.io
